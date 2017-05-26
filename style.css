@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Segoe UI';
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	/*background: #2980b9;*/
+	height: 500px;
+	display: flex;
+	flex-direction: row;	
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.box{
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 30%;
+	height: 250px;
+	/*background: #e74c3c;*/
+	border: 3px solid white;
+	margin-bottom: 20px;
+}
+
+.box1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+header{
+	height: 70px;	
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header>.logo{
+	align-items: center;
+	display: flex;
+}
+
+.logo>i{
+	margin-right: 10px;
+}
+
+.logoText{
+	font-family: 'Lobster Two', cursive;
+	border-left: 1px solid grey;
+	padding-left: 10px;
+	font-size: 24px;
+}
+
+input{
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	border: 1px solid grey;
+	padding-left: 10px;
+	background: url('search.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 95% center;
+
+}
+
+.rightSideIcons>i{
+	transition: color ease .5s;
+	cursor: pointer;
+	margin-left: 10px;
+	font-size: 22px;
+}
+
+.rightSideIcons>i:hover{
+	color: #e74c3c;
+}
+
+.top{
+	margin-bottom: 20px;
+	width: 100%;
+	background: white;
+	border-bottom: 5px;
+	box-shadow: 1px 1px 7px 2px darkgray;	
+}
+
+.box>img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.box>img:hover{
+	filter: blur(5px);
+}
+
+input:focus{
+	background: none;
+}
+
+.subtree{
+	height: 300px;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.avatar{
+	text-align: center;
+	width: 40%;
+}
+
+.avatar img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.profileInfo{
+	flex-direction: column;
+	display: flex;
+	width: 40%;
+	justify-content: space-between;
+	align-items: space-between;
+	height: 150px;
+}
+
+.info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name{
+	font-weight: bold;
+	font-family: 'Segoe UI';
+}
+
+.info button{
+	height: 25px;
+	width: 150px;
+}
+
+.info2{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+}
+
+.bold{
+	font-weight: bold;
+}
